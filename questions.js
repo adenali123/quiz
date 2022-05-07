@@ -1,58 +1,58 @@
 let questions = [
     {
     numb: 1,
-    question: "What does an HTML document contain ?",
-    answer: "all the answers are true",
+    question: "What are function and var known as:",
+    answer: "Declaration statements",
     options: [
-      "attributesr",
-      "tags",
-      "raw text",
-      "all the answers are true"
+      "Prototypes",
+      "Data Types",
+      "keywords",
+      "Declaration statements"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "Which one of the following also known as Conditional Expression:",
+    answer: "immediate if",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "if-then-else statement",
+      "switch statement",
+      "alterative to if-else",
+      "immediate if"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "In JavaScript, what is a block of statement?",
+    answer: "block that combines a number of statements into a single compound statement",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "Conditional block",
+      "both conditional block and a single statement",
+      "block that contains a single statement",
+      "block that combines a number of statements into a single compound statement"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "which one of the following is not considered as an error?",
+    answer: "Division by zero",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "Missing of bracket",
+      "Missing Of SemiColons",
+      "Syntax Error",
+      "Division by zero"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "Which one of the following is the correct way for calling the JavaScript code??",
+    answer: "Function/Method",
     options: [
         
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "Triggering Event",
+      "Preprocessor",
+      "RMI",
+      "Function/Method"
     ]
 },
 ]
