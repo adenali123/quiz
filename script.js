@@ -20,7 +20,7 @@ exit_btn.onclick = ()=>{
 continue_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); 
     quiz_box.classList.add("activeQuiz"); 
-    showQuetions(0); 
+    showQuestions(0); 
     queCounter(1);
     startTimer(15); 
     startTimerLine(0); 
@@ -43,7 +43,7 @@ restart_quiz.onclick = ()=>{
     que_numb = 1;
     userScore = 0;
     widthValue = 0;
-    showQuetions(que_count);
+    showQuestions(que_count);
     queCounter(que_numb); 
     clearInterval(counter); 
     clearInterval(counterLine); 
@@ -51,7 +51,7 @@ restart_quiz.onclick = ()=>{
     startTimerLine(widthValue);
     timeText.textContent = "Time Left"; 
     next_btn.classList.remove("show"); 
-
+}
 quit_quiz.onclick = ()=>{
     window.location.reload(); 
 }
@@ -62,7 +62,7 @@ next_btn.onclick = ()=>{
     if(que_count < questions.length - 1){ 
         que_count++; 
         que_numb++; 
-        showQuetions(que_count); 
+        showQuestions(que_count); 
         queCounter(que_numb); 
         clearInterval(counter); 
         clearInterval(counterLine); 
@@ -77,7 +77,7 @@ next_btn.onclick = ()=>{
     }
 }
 
-function showQuetions(index){
+function showQuestions(index){
     const que_text = document.querySelector(".que_text");
    
     let que_tag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
@@ -151,10 +151,7 @@ function startTimer(time){
     function timer(){
         timeCount.textContent = time; 
         time--;
-        if(time < 15){ 
-            let addZero = timeCount.textContent; 
-            timeCount.textContent = "0" + addZero; 
-        }
+      
         if(time < 0){ 
             clearInterval(counter); 
             timeText.textContent = "Time Off"; 
@@ -188,4 +185,4 @@ function queCounter(index){
     
     let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;  
-}}
+}
