@@ -2,12 +2,12 @@ let questions = [
     {
     numb: 1,
     question: "What does an HTML document contain ?",
-    answer: "all the above are true",
+    answer: "all the answers are true",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "attributesr",
+      "tags",
+      "raw text",
+      "all the answers are true"
     ]
   },
     {
@@ -54,4 +54,5 @@ let questions = [
       "eXTra Multi-Program Language",
       "eXamine Multiple Language"
     ]
-    },
+},
+]
